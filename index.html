@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Diet & Exercise Tracker</title>
+</head>
+<body>
+    <table border="1" width="90%" align="center" cellpadding="10" cellspacing="0">
+        <tr>
+            <td colspan="2" align="center">
+                <h1>Weekly Diet & Exercise Tracker</h1>
+                <p>Track your personal fitness and diet routine for the week.</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" valign="top">
+                <form>
+                    <fieldset>
+                        <legend><strong>Personal Information</strong></legend>
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name"></td>
+                            </tr>
+                            <tr>
+                                <td>Age:</td>
+                                <td><input type="number" name="age"></td>
+                            </tr>
+                            <tr>
+                                <td>Gender:</td>
+                                <td>
+                                    <input type="radio" name="gender" value="Male"> Male
+                                    <input type="radio" name="gender" value="Female"> Female
+                                    <input type="radio" name="gender" value="Other"> Other
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>Diet Tracking</strong></legend>
+                        <table>
+                            <tr>
+                                <td>Breakfast:</td>
+                                <td><input type="text" name="breakfast"></td>
+                            </tr>
+                            <tr>
+                                <td>Lunch:</td>
+                                <td><input type="text" name="lunch"></td>
+                            </tr>
+                            <tr>
+                                <td>Dinner:</td>
+                                <td><input type="text" name="dinner"></td>
+                            </tr>
+                            <tr>
+                                <td>Snacks:</td>
+                                <td><input type="text" name="snacks"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend><strong>Exercise Tracking</strong></legend>
+                        <table>
+                            <tr>
+                                <td>Exercise Type:</td>
+                                <td><input type="text" name="exercise_type"></td>
+                            </tr>
+                            <tr>
+                                <td>Duration (minutes):</td>
+                                <td><input type="number" name="duration"></td>
+                            </tr>
+                            <tr>
+                                <td>Intensity:</td>
+                                <td>
+                                    <select name="intensity">
+                                        <option value="Low">Low</option>
+                                        <option value="Medium">Medium</option>
+                                        <option value="High">High</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <table>
+                        <tr>
+                            <td><input type="submit" value="Submit"></td>
+                            <td><input type="reset" value="Reset"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <td width="50%" valign="top" align="center">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/1f8yoFFdkcY" title="Healthy Eating & Exercise Tips" frameborder="0" allowfullscreen></iframe>
+                <p>Watch this video for tips on healthy eating and exercise!</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
